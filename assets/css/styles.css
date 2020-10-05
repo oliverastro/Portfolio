@@ -1,0 +1,181 @@
+/* vars */
+:root {
+    --color-shark:          #212529;
+    --color-white:          #ffffff;
+    --color-outerSpace:     #373a3C;
+    --color-alto:           #dddddd;
+    --color-black:          #000000;
+    --color-danger:         #dc3545;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--color-outerSpace);
+}
+
+h1 {
+    font-weight: 500;
+    color: var(--color-outerSpace);
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+h4 {
+    font-size: 1.3125rem;
+}
+
+h5 {
+    font-weight: 300;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif; */
+
+.jumbotron {
+    background: url(/assets/img/hero-image.jpg) no-repeat;
+    background-size: 100%;
+    border-radius: 0;
+    min-height: 507px;
+}
+
+.jumbotron .lead,
+.jumbotron .display-4 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.jumbotron .welcome-text {
+    bottom: 1.625rem;
+}
+
+.bg-outer-space {
+    background-color: var(--color-outerSpace) !important;
+}
+
+.logo {
+    font-family: 'Lobster', cursive;
+}
+
+.navbar .navbar-toggler {
+    color: var(--color-white);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--color-white);
+}
+
+/* New Styles */
+.title-main {
+    font-weight: 700;
+}
+
+.img-main {
+    height: 24rem;
+}
+
+/* Carousel */
+.carousel-indicators {
+    position: relative;
+}
+
+.btn-outline-dark:hover {
+    background-color: var(--color-white);
+    color: var(--color-black)
+}
+
+hr {
+    border-color: var(--color-outerSpace);
+}
+
+.carousel-indicators li {
+    background-color: var(--color-outerSpace);
+    height: 12px;
+    width: 12px;
+}
+
+
+h4.title {
+    border-bottom: 2px solid var(--color-outerSpace);
+}
+
+/* .hero-title .share-buttons {
+    justify-content: center;
+} */
+
+.hero-title button {
+    font-size: 0.8125rem;
+}
+
+.bs-tooltip-right .tooltip-inner {
+    margin-top: 2px;
+}
+
+.tooltip .tooltip-inner {
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+.recipe li,
+.recipe p {
+    color: var(--color-outerSpace);
+    font-size: 1.25rem;
+}
+
+.newsletter {
+    background-color: var(--color-danger);
+    padding: 6.25rem 1rem;
+}
+
+.newsletter .title {
+    font-size: 1.875rem;
+}
+
+
+.newsletter h4,
+.newsletter h4 .logo {
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+}
+
+.newsletter .btn {
+    font-size: 1rem;
+    min-height: 2rem;
+    min-width: 14rem;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    background-color: var(--color-outerSpace);
+}
+
+.logo-footer {
+    font-size: 2.3125rem;
+}
+
+/* media queries */
+@media (min-width:540px) {
+
+    .hero-title button {
+        font-size: 1rem;
+    }
+    .newsletter {
+        padding: 5.5rem;
+    }
+
+    .newsletter h4 {
+        font-size: 2rem;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+    .newsletter h4 .logo {
+        font-size: 1.875rem;
+    }
+}
