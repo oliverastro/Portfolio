@@ -2,6 +2,7 @@
 :root {
     --color-shark:          #212529;
     --color-white:          #ffffff;
+    --color-main:           #336699;
     --color-outerSpace:     #373a3C;
     --color-alto:           #dddddd;
     --color-black:          #000000;
@@ -39,8 +40,8 @@ h5 {
 font-family: 'Oswald', sans-serif; */
 
 .jumbotron {
-    background: url(/assets/img/hero-image.jpg) no-repeat;
-    background-size: 100%;
+    background: url('/assets/img/hero-image.jpg') no-repeat center;
+    background-size: cover;
     border-radius: 0;
     min-height: 507px;
 }
@@ -48,14 +49,25 @@ font-family: 'Oswald', sans-serif; */
 .jumbotron .lead,
 .jumbotron .display-4 {
     font-family: 'Oswald', sans-serif;
+    color: var(--color-white);
 }
 
-.jumbotron .welcome-text {
+.jumbotron .username-text {
     bottom: 1.625rem;
+    width: 17rem;
 }
 
-.bg-outer-space {
-    background-color: var(--color-outerSpace) !important;
+.username-text .lead {
+    border-bottom: 1px solid var(--color-white);
+    font-size: 2.5rem;
+}
+
+.jumbotron .display-4 {
+    font-weight: 700;
+}
+
+.bg-color-main {
+    background-color: var(--color-main) !important;
 }
 
 .logo {
@@ -160,7 +172,9 @@ h4.title {
 
 /* media queries */
 @media (min-width:540px) {
-
+    .welcome-text {
+        max-width: 21.75rem;
+    }
     .hero-title button {
         font-size: 1rem;
     }
