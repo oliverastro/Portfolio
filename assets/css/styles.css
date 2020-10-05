@@ -2,7 +2,7 @@
 :root {
     --color-shark:          #212529;
     --color-white:          #ffffff;
-    --color-main:           #336699;
+    --color-main:           #003366;
     --color-outerSpace:     #373a3C;
     --color-alto:           #dddddd;
     --color-black:          #000000;
@@ -79,6 +79,11 @@ h2.title {
     font-weight: 700;
 }
 
+.card-header {
+    max-height: 8.75rem;
+    overflow: hidden;
+}
+
 .welcome hr {
     margin-bottom: 4rem;
 }
@@ -94,6 +99,13 @@ h2.title {
 .navbar-dark .navbar-nav .nav-link {
     color: var(--color-white);
 }
+
+.footer .social-icons {
+    font-size: 2.5rem;
+}
+
+
+
 
 /* New Styles */
 .title-main {
