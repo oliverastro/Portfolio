@@ -71,7 +71,20 @@ font-family: 'Oswald', sans-serif; */
 }
 
 .logo {
-    font-family: 'Lobster', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+
+h2.title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.welcome hr {
+    margin-bottom: 4rem;
+}
+
+.my-experience .card .card-header {
+    min-height: 21.25rem;
 }
 
 .navbar .navbar-toggler {
