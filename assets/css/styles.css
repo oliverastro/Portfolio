@@ -9,6 +9,10 @@
     --color-danger:         #dc3545;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     color: var(--color-outerSpace);
@@ -54,7 +58,7 @@ font-family: 'Oswald', sans-serif; */
 
 .jumbotron .username-text {
     bottom: 1.625rem;
-    width: 17rem;
+    min-width: 17rem;
 }
 
 .username-text .lead {
@@ -89,7 +93,7 @@ h2.title {
 }
 
 .my-experience .card .card-header {
-    min-height: 21.25rem;
+    min-height: 15rem;
 }
 
 .navbar .navbar-toggler {
@@ -131,7 +135,7 @@ hr {
 }
 
 .carousel-indicators li {
-    background-color: var(--color-outerSpace);
+    background-color: var(--color-white);
     height: 12px;
     width: 12px;
 }

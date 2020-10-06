@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link rel="shortcut icon" type="image/png" href="favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="favicon.svg" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
@@ -33,16 +33,16 @@
             <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item text-right mr-2">
-                        <a class="nav-link" href="#">Sobre mí <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#aboutMe">Sobre mí <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item text-right mr-2">
-                        <a class="nav-link" href="#">Experiencia</a>
+                        <a class="nav-link" href="#experience">Experiencia</a>
                     </li>
                     <li class="nav-item text-right mr-2">
-                        <a class="nav-link" href="#">Trabajos</a>
+                        <a class="nav-link" href="#works">Trabajos</a>
                     </li>
                     <li class="nav-item text-right mr-2">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contact">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -51,10 +51,10 @@
     <!-- End Navbar -->
 
     <!-- Container -->
-    <header class="container-fluid px-0">
+    <header id="aboutMe" class="container-fluid px-0">
         <div class="jumbotron text-center d-flex align-items-end justify-content-center pb-4">
             <div class="username-text">
-                <p class="lead pb-3">Yo soy.</p>
+                <p class="lead pb-3">Yo soy</p>
                 <h1 class="display-4">Christian Monterrosa</h1>
             </div>
         </div>
@@ -77,11 +77,11 @@
             </div>
         </div>
     </div>
-    <section class="my-experience container-fluid">
+    <section id="experience" class="my-experience container-fluid">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="title text-uppercase text-center mb-5">Mi Experiencia</h2>
+                    <h2 class="title text-uppercase text-center mb-3">Mi Experiencia</h2>
                 </div>
                 <div class="col-12">
                     <hr class="w-25">
@@ -90,8 +90,8 @@
             <div class="row mx-auto">
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
                     <div class="card border-0">
-                        <div class="card-header d-flex align-items-center bg-white border-0">
-                            <img src="assets/img/logo-kiteknology.png" class="card-img-top" alt="Panqueques con manjar y crema" />
+                        <div class="card-header d-flex align-items-center justify-content bg-white border-0" data-toggle="tooltip" data-placement="bottom" title="kiteknology">
+                            <img src="assets/img/logo-kiteknology.png" class="img-fluid mx-auto" alt="kiteknology"/>
                         </div>
                         <div class="card-body text-center">
                             <h5 class="card-title text-uppercase fw-700">Kiteknology</h5>
@@ -103,8 +103,8 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
                     <div class="card border-0">
-                        <div class="card-header d-flex align-items-center bg-white border-0">
-                            <img src="assets/img/logo-2brains.png" class="card-img-top" alt="Panqueques con manjar y crema" />
+                        <div class="card-header d-flex align-items-center justify-content bg-white border-0" data-toggle="tooltip" data-placement="bottom" title="2brains">
+                            <img src="assets/img/logo-2brains.png" class="img-fluid mx-auto" alt="2brains" />
                         </div>
                         <div class="card-body text-center">
                             <h5 class="card-title text-uppercase fw-700">2Brains</h5>
@@ -116,8 +116,8 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 mb-4">
                     <div class="card border-0">
-                        <div class="card-header d-flex align-items-center bg-white border-0">
-                            <img src="assets/img/logo-yapo.png" class="card-img-top" alt="Tiramisú" />
+                        <div class="card-header d-flex align-items-center justify-content bg-white border-0" data-toggle="tooltip" data-placement="bottom" title="Yapo">
+                            <img src="assets/img/logo-yapo.png" class="img-fluid mx-auto" alt="Yapo" />
                         </div>
                         <div class="card-body text-center">
                             <h5 class="card-title text-uppercase fw-700">Yapo</h5>
@@ -130,7 +130,7 @@
             </div>
         </div>
     </section>
-    <section class="container-fluid bg-color-main">
+    <section id="works" class="container-fluid bg-color-main pt-5 pb-3">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -211,19 +211,6 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-4">
-                                    <div class="card">
-                                        <div class="card-header p-0">
-                                            <img src="assets/img/wrk-ricomida.png" class="card-img-top" alt="Panqueques con manjar y crema" />
-                                        </div>
-                                        <div class="card-body">
-                                            <h5 class="card-title text-uppercase fw-700">Ricomida</h5>
-                                            <div class="mb-2">
-                                                <p class="card-text mb-0">Mus enim elementum dignissim class eleifend justo.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -235,15 +222,23 @@
             </div>
         </div>
     </section>
+    <section id="contact" class="container">
+        <div class="row">
+            <div class="col-md-12 text-center mb-5">
+                <h3 class="my-5">¿Quieres conocerme?</h3>
+                <a class="typeform-share button" href="https://form.typeform.com/to/X4gf5UHL" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#3C6997;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:11px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Comenzar </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+            </div>
+        </div>
+    </section>
     <!-- Footer -->
     <footer class="footer">
         <div class="container-fluid">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6 text-white">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-6 pl-5 text-white">
                         <p class="logo logo-footer mt-2">Christian Monterrosa</p>
                     </div>
-                    <div class="col-md-6 social-icons">
+                    <div class="col-md-6 pr-5 text-right social-icons">
                         <a href=""><i class="fab fa-github-square text-white"></i></a>
                         <a href=""><i class="fab fa-linkedin text-white"></i></a>
                         <a href=""><i class="fab fa-twitter-square text-white"></i></a>
