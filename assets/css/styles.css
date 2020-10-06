@@ -145,10 +145,6 @@ h4.title {
     border-bottom: 2px solid var(--color-outerSpace);
 }
 
-/* .hero-title .share-buttons {
-    justify-content: center;
-} */
-
 .hero-title button {
     font-size: 0.8125rem;
 }
